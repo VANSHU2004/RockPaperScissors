@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <main>
+        <nav>
+            <h2>Rock Paper Scissors Game</h2>
+        </nav>
+        <section id="gameContainer">
+            <div class="game">
+                <div class="choices" >
+                    <img class="image" id="rock" src="./images/rock.png" alt="">
+                </div>
+                <div class="choices" >
+                    <img class="image" id="paper" src="./images/hand-paper.png" alt="">
+                </div>
+                <div class="choices" >
+                    <img class="image" id="scissors" src="./images/scissors-hand.png" alt="">
+                </div>
+            </div>
+            <div class="result">
+                <div >
+                    <h2 id="user-score">0</h2>
+                    <h3>USER</h3>
+                </div>
+                <div >
+                    <h2 id="computer-score">0</h2>
+                    <h3>COMPUTER</h3>
+                </div>
+            </div>
+            <div class="gameControls">
+                <button class="resMsg">Make Your Choice!</button>
+                
+                <button class="reset">Reset Game</button>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

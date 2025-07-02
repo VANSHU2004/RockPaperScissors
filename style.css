@@ -1,0 +1,127 @@
+/* CSS HEX
+--federal-blue: #1b065eff;
+--purple-pizzazz: #ff47daff;
+--tickle-me-pink: #ff87abff;
+--tea-rose-red: #fcc8c2ff;
+--parchment: #f5eccdff; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Itim',cursive;
+}
+main{
+    height: 100vh;
+}
+nav{
+    background-color: #1b065eff;
+    padding: 1vw;
+}
+
+nav h2{
+    text-align: center;
+    font-size: 3vw;
+    color: #fff;  
+    
+}
+
+section{
+    margin-top: 3vw;
+    height: 35vw;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+.game{
+    
+    height: 20vw;
+    width: 46vw;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: azure; */
+
+}
+
+.choices{
+    height: 12vw;
+    width: 12vw;
+    border-radius: 20%;
+    background-color: #fcc8c2ff;
+    color: #fff;
+    
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choices:hover{
+    border: 3px solid #ff47daff;
+    box-shadow: 0 0 5px #ff47daff;
+}
+.choices:focus{
+  outline: 3px solid #ff47daff;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    
+    object-position: center;
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    font-size: 1vw;
+}
+#user-score , #computer-score{
+    font-size: 3vw;
+    text-align: center;
+}
+.gameControls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    margin-top: 1vw;
+}
+.resMsg{
+    padding: 0.6vw;
+    border-radius: 1vw;
+    background-color: #1b065eff;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.reset{
+    padding: 0.6vw;
+    border-radius: 1vw;
+    background-color: #1b065eff;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
