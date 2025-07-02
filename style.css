@@ -120,6 +120,57 @@ section{
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  nav h2 {
+    font-size: 6vw;
+  }
+
+  section {
+    height: auto;
+    margin-top: 6vw;
+    gap: 5vw;
+  }
+
+  .game {
+    flex-direction: column;
+    height: auto;
+    width: 90vw;
+    gap: 4vw;
+  }
+
+  .choices {
+    width: 30vw;
+    height: 30vw;
+    font-size: 5vw;
+  }
+
+  .image {
+    width: 80%;
+    height: 80%;
+  }
+
+  .result {
+    flex-direction: column;
+    font-size: 4vw;
+    gap: 2vw;
+  }
+
+  #user-score, #computer-score {
+    font-size: 6vw;
+  }
+
+  .gameControls {
+    gap: 3vw;
+    margin-top: 4vw;
+  }
+
+  .resMsg, .reset {
+    padding: 2vw 4vw;
+    font-size: 4vw;
+  }
+}
+
+
 
 
 
